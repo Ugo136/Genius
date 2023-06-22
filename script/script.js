@@ -95,4 +95,3 @@ function verifygame2(){
 verificar.onclick=()=>{
     verifygame();
 };
-
