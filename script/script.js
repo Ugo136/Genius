@@ -5,6 +5,8 @@ const verde = document.getElementById('verde')
 const amarelo = document.getElementById('amarelo')
 const azul = document.getElementById('azul')
 
+const jogarMaquina = document.getElementById('jogarMaquina');
+const verificar = document.getElementById('verificar');
 
 // Lógica do Jogo
 
@@ -72,7 +74,6 @@ function jogar(){
     console.log('Máquina '+ vetmaq);
 }
 
-
 //  Verificação
 function verifygame2(){
     tamVet = vetmaq.length;
@@ -93,5 +94,5 @@ function verifygame2(){
 }
 
 verificar.onclick=()=>{
-    verifygame();
+    verifygame2();
 };
