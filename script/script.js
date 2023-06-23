@@ -61,9 +61,6 @@ function azulPisca(){
      console.log('Jogador ' + vetjogador);
 }
 
-
-
-
 jogarMaquina.onclick = ()=>{
     jogar();
     vetjogador=[];
