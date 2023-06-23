@@ -71,6 +71,7 @@ function jogar(){
     console.log('Máquina '+ vetmaq);
 }
 
+
 //  Verificação
 function verifygame2(){
     tamVet = vetmaq.length;
